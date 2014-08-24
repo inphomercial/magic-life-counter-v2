@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/mainwallpaper">
+
+    <EditText
+        android:id="@+id/etPlayer1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:textColorHint="#C0C0C0"
+        android:hint="@string/etEnterPlayerOneName" />
+
+    <EditText
+        android:id="@+id/etPlayer2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:textColorHint="#C0C0C0"
+        android:hint="@string/etEnterPlayerTwoName" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45sp">
+
+        <Button
+            android:id="@+id/bSubmitPlayerNames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bSubmitPlayerNames"
+            android:textColor="#ffffff" />
+        
+    </LinearLayout>
+    
+</LinearLayout>

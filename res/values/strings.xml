@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MTG LifeCounter</string>
+    
+    <!-- Menu strings -->
+    <string name="action_settings">Settings</string>
+    
+    <!-- Player one controls -->
+    <string name="tvPlayerOneDisplay">Player 1</string>
+    <string name="tvPlayerOneTotal">20</string>
+    <string name="btnPlayerOnePoisonTotal">0</string>
+    <string name="bPlayerOneAddOne">+1</string>
+    <string name="bPlayerOneMinusOne">-1</string>
+    <string name="bPlayerOneAddFive">+5</string>
+    <string name="bPlayerOneMinusFive">-5</string>
+    <string name="etEnterPlayerOneName">Player 1\'s Name</string>
+    
+    <!-- Player two controls -->
+    <string name="tvPlayerTwoDisplay">Player 2</string>
+    <string name="tvPlayerTwoTotal">20</string>
+    <string name="btnPlayerTwoPoisonTotal">0</string>
+    <string name="bPlayerTwoAddOne">+1</string>
+    <string name="bPlayerTwoMinusOne">-1</string> 
+    <string name="bPlayerTwoAddFive">+5</string>
+    <string name="bPlayerTwoMinusFive">-5</string>
+	<string name="etEnterPlayerTwoName">Player 2\'s Name</string>
+    
+    <string name="bResetTotals">Reset Game</string>
+    <string name="bSubmitPlayerNames">Submit Names</string>
+    
+    <!-- Dice buttons -->
+    <string name="tvDice2">0</string>
+</resources>
